@@ -17,3 +17,11 @@ create database stock_example;
 use stock_example;
 ```
 
+
+
+## Intelli J 테스트코드 파일 생성 단축키
+
+```
+클래스 명에 마우스 올리고 alt + enter
+```
+
