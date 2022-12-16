@@ -47,7 +47,7 @@ class StockServiceTest {
     }
 
     @Test
-    public void 동시에_100명이_주문() throws InterruptedException {
+    public void concurrent_order_100() throws InterruptedException {
         int threadCount = 100; //쓰레드 100개
 
         //ExecutorService 비동기요청을 단순하게 사용할 수 있는 자바 API
