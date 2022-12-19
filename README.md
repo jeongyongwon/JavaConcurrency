@@ -25,3 +25,19 @@ use stock_example;
 클래스 명에 마우스 올리고 alt + enter
 ```
 
+
+
+## redis container 생성 및 구동
+
+```bash
+docker run --name myredis -d -p 6379:6379 redis
+```
+
+
+
+## redis container 접속 후 redis-cli 접속
+
+```
+docker exec -it <Container ID 또는 Names> redis-cli
+```
+
